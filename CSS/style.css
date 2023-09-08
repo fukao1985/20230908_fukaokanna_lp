@@ -1,0 +1,561 @@
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+    width: 100%;
+    max-width: 1500px;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 64px;
+}
+
+.header-logo {
+    width: 156px;
+    height: auto;
+    padding-left: 30px;
+    cursor: pointer;
+}
+
+.header-logo img {
+    width: 156px;
+    height: auto;
+}
+
+.header-nav-list {
+    display: flex;
+    font-size: 1.2vw;
+    color: #616161;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.header-nav-item {
+    display: inline-block;
+    padding: 5px;
+    margin-right: 20px;
+}
+
+.main {
+    position: relative;
+}
+
+.first_view {
+    width: 100%;
+}
+
+.first_view-img {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 60%;
+}
+
+.first_view-img img {
+    width: 100%;
+}
+
+.first_view-content {
+    width: 40%;
+}
+
+.first_view-content-ttl {
+    position: absolute;
+    top: 80px;
+    left: 290px;
+    width: 60%;
+    font-size: 4.6vw;
+    font-family: 'Indie Flower';
+    color: #a7356e;
+    line-height: 1.5em;
+}
+
+.first_view-content-ttl-pickup {
+    color: #41aacd;
+}
+
+.first_view-content-subttl {
+    font-weight: bold;
+    color: #a7356e;
+    position: absolute;
+    top: 365px;
+    left: 290px;
+    width: 60%;
+    font-size: 1.6vw;
+}
+
+.first_view-content-subttl-pickup {
+    color: #41aacd;
+}
+
+.first_view-content-txt {
+    position: absolute;
+    top: 400px;
+    left: 290px;
+    width: 60%;
+    font-size: 1.6vw;
+    color: #949593;
+    line-height: 1.5em;
+}
+
+.news {
+    width: 45%;
+    position: absolute;
+    top:650px;
+    left: 50%;
+    transform:translate(-50%, 0);
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #fff;
+}
+
+.news-mark {
+    font-family: 'Indie Flower';
+    font-weight: bold;
+    color: #a7356e;
+    padding: 10px 0;
+}
+
+.news-ttl {
+    color: #616161;
+    font-weight: bold;
+    padding-bottom: 30px;
+    border-bottom: 2px solid gainsboro;
+}
+
+.news-list {
+    color: #616161;
+    font-size: 11px;
+    line-height: 4em;
+    border-bottom: 2px solid gainsboro;
+    list-style: none;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.news-item {
+    border-bottom: 1px solid gainsboro;
+}
+
+.news-item-pickup {
+    background-color: #a7356e;
+    color: #fff;
+    padding: 2px 10px;
+    border-radius: 30px;
+    margin: 0 20px;
+}
+
+.about {
+    position: absolute;
+    top: 1050px;
+    width: 100%;
+    height: 500px;
+    background-color: #f2f2f2;
+    text-align: center;
+}
+
+.about-mark {
+    font-family: 'Indie Flower';
+    font-weight: bold;
+    color: #a7356e;
+    padding: 10px 0;
+    margin-top: 30px;
+}
+
+.about-ttl {
+    font-size: 20px;
+    color: #616161;
+    margin-bottom: 40px;
+}
+
+.about-content {
+    display: flex;
+    justify-content: center;
+}
+
+.about-txt-content {
+    float: left;
+    margin-right: 80px;
+    line-height: 1.7em;
+    text-align: left;
+}
+
+.about-txt-content-txt {
+    font-weight: 100;
+    color:#949593;
+}
+
+.about-txt-content-txt:nth-child(2) {
+    margin-top: 30px;
+}
+
+.about-img {
+    width: 26%;
+    height: auto;
+    float: left;
+    margin-left: 80px;
+}
+
+.about-img img {
+    width: 100%;
+    height: auto;
+    float: left;
+}
+
+.service {
+    width: 100%;
+    position: absolute;
+    top: 1630px;
+    left: 270px;
+}
+
+.service-mark {
+    font-family: 'Indie Flower';
+    font-weight: bold;
+    color: #a7356e;
+    padding: 10px 0;
+}
+
+.service-ttl {
+    font-size: 20px;
+    color: #616161;
+    margin-bottom: 40px;
+}
+
+.service-content {
+    width: 65%;
+    display: grid;
+    grid-template-rows: 57% 57%;
+    grid-template-columns: 1fr 1fr;
+    color: #fff;
+}
+
+.service-content-box1 {
+    background-color: #a7356e;
+    grid-row: 1/3;
+    grid-column: 1/2;
+    text-align: center;
+    padding: 30px;
+}
+
+.service-content-box1-ttl {
+    margin-top: 20px;
+    margin-bottom: 13px;
+}
+
+.service-content-box1-txt {
+    line-height: 1.7em;
+    text-align: left;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.service-content-box1-img {
+    width: 30%;
+    padding-left: 140px;
+    padding-top: 10px;
+}
+
+.service-content-box1-img img {
+    width: 100%;
+}
+
+.service-content-box2 {
+    background-color: #cd6096;
+    grid-row: 1/2;
+    grid-column: 2/3;
+    padding:15px;
+    text-align: left;
+}
+
+.service-content-box2-block {
+    float: right;
+    margin-right: 10px;
+}
+
+.service-content-box2-ttl {
+    padding: 20px 0;
+}
+
+.service-content-box2-txt {
+    line-height: 1.7em;
+}
+
+.service-content-box2-img {
+    margin-top: 10px;
+    width: 30%;
+    float:left;
+}
+
+.service-content-box2-img img {
+    width: 100%;
+}
+
+.service-content-box3 {
+    background-color: #cd9db5;
+    grid-row: 2/3;
+    grid-column: 2/3;
+    padding:15px;
+    text-align: left;
+}
+
+.service-content-box3-block {
+    float: right;
+    margin-right: 10px;
+}
+
+.service-content-box3-ttl {
+    padding: 20px 0;
+}
+
+.service-content-box3-txt {
+    line-height: 1.7em;
+}
+
+.service-content-box3-img {
+    margin-top: 10px;
+    width: 30%;
+    float: left;
+    }
+
+.service-content-box3-img img {
+    width: 100%;
+}
+
+.blog {
+    position: absolute;
+    width: 100%;
+    height: 630px;
+    top: 2220px;
+    background-color: #f2f2f2;
+}
+
+.blog-mark {
+    font-family: 'Indie Flower';
+    font-weight: bold;
+    color: #a7356e;
+    padding: 15px 265px;
+    margin-top: 20px;
+}
+
+.blog-ttl {
+    font-size: 20px;
+    color: #616161;
+    margin-bottom: 40px;
+    padding-left: 265px;
+}
+
+.blog-wrap {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: 73%;
+}
+
+.blog-card {
+    width: 27%;
+    border-radius: 20px 0 0 0;
+    padding: 0 20px;
+}
+
+.card-img-tag {
+    position: absolute;
+    width: 77px;
+    height: 38px;
+    border-radius: 20px 0 0 0;
+    background-color: #a7356e;
+    color: #fff;
+    font-size: 15px;
+    line-height: 38px;
+    text-align: center;
+}
+
+.card-img {
+    width: 100%;
+}
+
+.card-img img {
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+}
+
+.card-content {
+    background-color: #fff;
+    height: 156px;
+    box-sizing: border-box;
+    padding: 27px;
+    line-height: 1.7em;
+    color: #616161;
+    border-radius: 0 0 20px 20px;
+    }
+
+.card-content-txt {
+    display: flex;
+    font-size: 13px;
+    font-weight: lighter;
+    margin-top: 30px;
+}
+
+.card-content-txt-tag {
+    margin-left: 63px;
+}
+
+.blog-link {
+    width: 208px;
+    height: 63px;
+    line-height: 63px;
+    text-align: center;
+    background-color: #fff;
+    border: 2px solid #a7356e;
+    border-radius: 50px;
+    color: #a7356e;
+    margin: 40px auto;
+    cursor: pointer;
+}
+
+.company {
+    position: absolute;
+    width: 100%;
+    top: 2930px;
+    padding-left: 23%;
+}
+
+.company-mark {
+    font-family: 'Indie Flower';
+    font-weight: bold;
+    color: #a7356e;
+    padding: 15px 0;
+}
+
+.company-ttl {
+    height: 20px;
+    font-size: 20px;
+    color: #616161;
+    margin-bottom: 40px;
+}
+
+.company-date {
+    width: 55%;
+    font-size: 15px;
+    border: 1px solid #949593;
+    line-height: 4em;
+}
+
+.company-date tr:not(:last-child){
+    border-bottom: 1px solid #949593;
+}
+
+.company-date th {
+    border-right: 1px solid #949593;
+    background-color: #f2f2f2;
+    text-align: left;
+    padding-left: 15px;
+}
+
+.company-date td {
+    padding-left: 15px;
+}
+
+.contact {
+    position: absolute;
+    width: 100%;
+    height: 690px;
+    top: 3500px;
+}
+
+.contact-wrap {
+    position: relative;
+    width: 100%;
+    height: 40vh;
+    background-image: url(../img/recruit.png),url(../img/interview.png);
+    background-size: 50% 40vh,50% 40vh;
+    background-position: left top,right bottom;
+    background-repeat: no-repeat,no-repeat;
+    cursor: pointer;
+}
+
+.contact-wrap-item-ttl1 {
+    position: absolute;
+    font-size: 30px;
+    color: #fff;
+    font-weight: bold;
+    top: 50%;
+    right: 65%;
+    transform: translate(-75%,-50%);
+    z-index: 1;
+}
+
+.contact-wrap-item-ttl2 {
+    position: absolute;
+    font-size: 30px;
+    color: #fff;
+    font-weight: bold;
+    top: 50%;
+    left: 50%;
+    transform: translate(106%, -50%);
+    z-index: 1;
+}
+
+.contact-txt {
+    font-size: 19px;
+    font-weight: bold;
+    color: #616161;
+    width: 100%;
+    text-align: center;
+    margin-top: 90px;
+}
+
+.contact-item {
+    width: 2px;
+    height: 40px;
+    background-color: #a7356e;
+    margin: 23px auto;
+}
+
+.contact-btn {
+    position: relative;
+    margin: 0 auto;
+    width: 260px;
+    height: 75px;
+    background: linear-gradient(90deg, #ff4797 30%, #992d5f );
+    box-shadow: 0 9px #661d3d;
+    border-radius: 100px;
+    text-align: center;
+    line-height: 75px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.contact-btn::before {
+    position: absolute;
+    content:" ";
+    width: 26px;
+    height: 23px;
+    background: url(../img/mailicon.png);
+    background-size: cover;
+    vertical-align: middle;
+    display: inline-block;
+    top: 35%;
+    left: 34px;
+}
+
+.footer {
+    position: absolute;
+    width: 100%;
+    top: 4250px;
+    color: #949593;
+    background-color:#F2F2F2;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+}
+
+.copyright {
+    font-size: 11px;
+}
